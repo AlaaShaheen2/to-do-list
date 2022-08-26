@@ -1,7 +1,88 @@
-.hello1 {
-  color: green;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
 }
 
 body {
-  background-color: bisque;
+  background-color: #eee;
+}
+
+.list {
+  background-color: #fff;
+  width: 40%;
+  margin: auto;
+  margin-top: 4em;
+  border-radius: 4px;
+}
+
+.head-sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 5px;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  border-bottom: 1px solid#eee;
+}
+
+.btn-hand,
+.update-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.update-btn {
+  margin-left: auto;
+}
+
+.to-do {
+  padding: 1em;
+}
+
+.to-do li {
+  display: flex;
+}
+
+.enter-txt {
+  border: 0;
+  width: 100%;
+  font-size: 14px;
+}
+
+.enter-txt:focus {
+  outline: 0;
+}
+
+.elements {
+  padding: 1em;
+  width: 100%;
+  background-color: #e0e0e0;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.btn-elm {
+  width: 100%;
+  height: 30px;
+  border: 0;
+  padding: 0;
+  font-size: 16px;
+  color: #413f42;
+  background-color: inherit;
 }
