@@ -39,7 +39,7 @@ Give a ⭐️ if you like this project!
 ### Run tests
 - You can navigate to different parts of the page from the navigation bar and you can also inspect using the available browser tools to se how the webpages were built.
 ### Deployment
-- The project is deployed at [ https://alaashaheen2.github.io/Capstone-company/]( https://alaashaheen2.github.io/Capstone-company/)
+- The project is deployed at [ https://alaashaheen2.github.io/to-do-list/]( https://alaashaheen2.github.io/to-do-list/)
 
 
 ## Acknowledgments
