@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  background-color: rgb(241, 239, 239);
+}
+
+.list {
+  margin: auto;
+  background-color: #fff;
+  width: 40%;
+  border-radius: 4px;
+  margin-top: 140px;
+}
+
+.head-sec {
+  margin-bottom: 5px;
+  display: flex;
+  border-bottom: 1px solid rgb(209, 204, 204);
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.form {
+  width: 100%;
+  border-bottom: 1px solid rgb(213, 204, 204);
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.btn-hand,
+.update-btn {
+  border: none;
+  outline: inherit;
+  padding: 0;
+  cursor: pointer;
+}
+
+.update-btn {
+  margin-left: auto;
+}
+
+.to-do {
+  padding: 15px;
+}
+
+.to-do li {
+  border-bottom: solid 1px gainsboro;
+  display: flex;
+  margin-bottom: 18px;
+}
+
+.description {
+  padding: 5px;
+}
+
+.enter-txt {
+  border: 0;
+  font-size: 14px;
+  width: 100%;
+}
+
+.enter-txt:focus {
+  outline: 0;
+}
+
+.elements {
+  background-color: #e4dfdf;
+  padding: 14px;
+  width: 100%;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.btn-elm {
+  font-size: 16px;
+  width: 100%;
+  height: 30px;
+  border: 0;
+  color: #afadb0;
+  padding: 0;
+  background-color: inherit;
+}
