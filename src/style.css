@@ -9,7 +9,7 @@ li {
 }
 
 body {
-  background-color: rgb(226, 222, 222);
+  background-color: rgb(241, 239, 239);
 }
 
 .list {
@@ -54,7 +54,12 @@ body {
 }
 
 .to-do li {
+  border-bottom: solid 1px gainsboro;
   display: flex;
+  margin-bottom: 18px;
+}
+.description{
+  padding: 5px;
 }
 
 .enter-txt {
@@ -68,7 +73,7 @@ body {
 }
 
 .elements {
-  background-color: #cbcaca;
+  background-color: #e4dfdf;
   padding: 14px;
   width: 100%;
   border-bottom-right-radius: 5px;
@@ -80,7 +85,7 @@ body {
   width: 100%;
   height: 30px;
   border: 0;
-  color: #2b282c;
+  color: #afadb0;
   padding: 0;
   background-color: inherit;
 }
