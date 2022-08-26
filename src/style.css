@@ -9,42 +9,40 @@ li {
 }
 
 body {
-  background-color: #eee;
+  background-color: rgb(226, 222, 222);
 }
 
 .list {
+  margin: auto;
   background-color: #fff;
   width: 40%;
-  margin: auto;
-  margin-top: 4em;
   border-radius: 4px;
+  margin-top: 140px;
 }
 
 .head-sec {
+  margin-bottom: 5px;
   display: flex;
+  border-bottom: 1px solid rgb(209, 204, 204);
   justify-content: space-between;
   align-items: center;
-  padding: 1em;
-  border-bottom: 1px solid #eee;
-  margin-bottom: 5px;
+  padding: 15px;
 }
 
 .form {
   width: 100%;
+  border-bottom: 1px solid rgb(213, 204, 204);
   display: flex;
   justify-content: space-between;
-  padding: 1em;
-  border-bottom: 1px solid#eee;
+  padding: 15px;
 }
 
 .btn-hand,
 .update-btn {
-  background: none;
   border: none;
-  padding: 0;
-  font: inherit;
-  cursor: pointer;
   outline: inherit;
+  padding: 0;
+  cursor: pointer;
 }
 
 .update-btn {
@@ -52,7 +50,7 @@ body {
 }
 
 .to-do {
-  padding: 1em;
+  padding: 15px;
 }
 
 .to-do li {
@@ -61,8 +59,8 @@ body {
 
 .enter-txt {
   border: 0;
-  width: 100%;
   font-size: 14px;
+  width: 100%;
 }
 
 .enter-txt:focus {
@@ -70,19 +68,19 @@ body {
 }
 
 .elements {
-  padding: 1em;
+  background-color: #cbcaca;
+  padding: 14px;
   width: 100%;
-  background-color: #e0e0e0;
-  border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 .btn-elm {
+  font-size: 16px;
   width: 100%;
   height: 30px;
   border: 0;
+  color: #2b282c;
   padding: 0;
-  font-size: 16px;
-  color: #413f42;
   background-color: inherit;
 }
