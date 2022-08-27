@@ -38,15 +38,23 @@ body {
 }
 
 .btn-hand,
-.update-btn {
+.update-btn,
+.delete-btn {
   border: none;
   outline: inherit;
   padding: 0;
   cursor: pointer;
+  background: none;
 }
 
 .update-btn {
   margin-left: auto;
+  margin-right: 5px;
+}
+
+.desc {
+  padding: 5px 0;
+  margin-left: 5px;
 }
 
 .to-do {
@@ -59,17 +67,15 @@ body {
   margin-bottom: 18px;
 }
 
-.description {
-  padding: 5px;
-}
-
-.enter-txt {
+.enter-txt,
+.desc {
   border: 0;
   font-size: 14px;
   width: 100%;
 }
 
-.enter-txt:focus {
+.enter-txt:focus,
+.desc:focus {
   outline: 0;
 }
 
